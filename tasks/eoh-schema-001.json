@@ -1,0 +1,35 @@
+{
+  "id": "eoh-schema-001",
+  "title": "Design outcome record schema + JSON Schema",
+  "project": "ewing-outcomes-harmonization",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer-research", "ewing-sarcoma", "oncology-data", "data-harmonization"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Published Ewing Sarcoma outcome data is not directly comparable across studies: event definitions (EFS/RFS/DFS/OS), disease extent, risk groups, chemotherapy backbones, local-control modality, treatment era, and follow-up all vary. There is no open, harmonized, provenance-rich substrate. This task defines the foundational data model (one row = one reported aggregate outcome) and its draft-07 JSON Schema so every downstream extraction is structured, comparable, and source-cited. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Produce a versioned JSON Schema and written data model for a single harmonized Ewing outcome record, capturing citation/provenance, cohort metadata (disease extent, primary site, age band, risk group), treatment metadata (regimen backbone, local control), the outcome (measure, event definition, timepoint, estimate, CI, method, median follow-up), accrual era, and comparability flags — with controlled vocabularies and enforceable compliance rules (provenance required; minimum-cell-size floor).",
+  "acceptanceCriteria": [
+    "Draft-07 JSON Schema committed implementing the one-row-per-reported-outcome model with all core fields from the PLAN data model.",
+    "Controlled vocabularies enumerated for every enum field (disease_extent, primary_site, age_band, outcome_measure, estimate_method, local_control, source_license, comparability_flags).",
+    "Schema requires complete provenance (DOI/PMID/NCT + source_locator + source_license + extractor + verifier + extraction_date) on every record.",
+    "Schema rejects any record with a subgroup n below the documented minimum-cell-size floor (default n<5) and any numeric value lacking a source_locator.",
+    "Schema validates the M0 pilot example records and rejects a deliberately malformed record in a test fixture.",
+    "Data model documented with field definitions and rationale; reviewed and signed by a domain (sarcoma-oncology / clinical-epidemiology) reviewer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md",
+    "C:/code/elyos/packages/schema/src/schemas.ts",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/",
+    "https://clinicaltrials.gov/",
+    "https://seer.cancer.gov/"
+  ],
+  "output": "A committed JSON Schema file plus a written data-dictionary draft (v0.1) defining the harmonized Ewing outcome record, its controlled vocabularies, and its compliance constraints, with passing validation fixtures.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
