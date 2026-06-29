@@ -1,0 +1,33 @@
+{
+  "id": "eoh-bk-505",
+  "title": "Quarterly new-trial review + dataset increment",
+  "project": "ewing-outcomes-harmonization",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Recurring update task: each quarter, review newly published trials/reports and increment the dataset under the same compliance and CI rules. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Run a quarterly review of new ES trials/reports and produce a compliant dataset increment passing all gates.",
+  "acceptanceCriteria": [
+    "Quarterly review identifies new eligible studies per the pre-registered protocol.",
+    "Dataset increment extracted, double-extracted, and passing schema + provenance + min-cell + no-unsourced-number gates.",
+    "Increment versioned with changelog and coverage-ledger update."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/release/increments/ quarterly dataset increment + changelog, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

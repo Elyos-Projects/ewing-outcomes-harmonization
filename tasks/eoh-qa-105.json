@@ -1,0 +1,33 @@
+{
+  "id": "eoh-qa-105",
+  "title": "Double-extraction QA + ≥10% audit + adjudication log",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Extraction quality is enforced by independent re-extraction of a random sample and a logged adjudication of every discrepancy. This task runs the double-extraction QA and audit across the extracted records. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Run double-extraction QA: independently re-extract ≥10% of records, measure field-level agreement, and adjudicate 100% of discrepancies with logged resolutions.",
+  "acceptanceCriteria": [
+    "≥10% random sample independently re-extracted; field-level agreement ≥95%.",
+    "100% of discrepancies adjudicated with a logged resolution and rationale.",
+    "QA report summarizes agreement rates and residual risks for the domain reviewer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/qa/extraction-qa-report.md plus an adjudication log, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

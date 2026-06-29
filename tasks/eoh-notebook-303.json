@@ -1,0 +1,33 @@
+{
+  "id": "eoh-notebook-303",
+  "title": "Reproducible researcher analysis notebook (caveat-laden)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Researchers need a runnable, reproducible example that surfaces comparability caveats rather than hiding them. This task delivers a caveat-laden analysis notebook that runs clean from the released artifacts and is explicitly researcher-facing, not a patient tool. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Deliver a reproducible analysis notebook that runs clean from the released artifacts and produces a caveat-laden comparison (e.g. 5-year EFS by disease extent and era) with comparability flags surfaced.",
+  "acceptanceCriteria": [
+    "Notebook runs clean from the released artifacts; produces a caveat-laden comparison (e.g. 5-year EFS by disease extent and era) with comparability flags surfaced.",
+    "Explicitly labeled researcher-facing / not a patient tool.",
+    "Reproducible end-to-end via documented dependencies."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "A committed reproducible analysis notebook plus its runner config, runnable from the released dataset.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

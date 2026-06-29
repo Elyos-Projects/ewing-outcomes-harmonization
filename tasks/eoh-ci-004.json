@@ -1,0 +1,33 @@
+{
+  "id": "eoh-ci-004",
+  "title": "Implement CI validators (schema, provenance, min-cell, no-unsourced-number)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The dataset's integrity depends on automated gates that reject any record lacking provenance, below the minimum-cell-size floor, or carrying an unsourced number. This task implements those CI validators so every PR is checked automatically and reproducibly. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Implement CI validators that fail the build on schema-invalid records, missing/incomplete provenance, subgroup n below the documented floor, or any numeric value lacking a source_locator.",
+  "acceptanceCriteria": [
+    "CI fails on: schema-invalid record, missing/incomplete provenance, any subgroup n below the documented floor, or any numeric value lacking a source_locator.",
+    "Validators run on every PR; documented and reproducible locally via pnpm.",
+    "Validators include test fixtures covering each failure mode and a passing example."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "A committed CI workflow + validator scripts under the repo's tooling path, runnable locally via pnpm.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

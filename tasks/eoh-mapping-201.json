@@ -1,0 +1,33 @@
+{
+  "id": "eoh-mapping-201",
+  "title": "Versioned mapping rules (era, regimen, extent, age, event-definition)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Comparability across studies requires explicit, versioned rules for mapping raw source labels (era, regimen, disease extent, age band, event definition) onto the controlled vocabulary without silently coercing meaning. This task authors those mapping rules. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Author versioned, reviewer-approved mapping rules for era, regimen, disease extent, age, and event-definition that preserve original source framing and flag ambiguous mappings.",
+  "acceptanceCriteria": [
+    "Each mapping rule is versioned and reviewer-approved; original source framing is preserved verbatim.",
+    "No raw label is silently coerced; ambiguous mappings are flagged, not guessed.",
+    "Mapping rules cover era, regimen, disease extent, age band, and event definition."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/mapping/mapping-rules-v1.md (versioned), committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

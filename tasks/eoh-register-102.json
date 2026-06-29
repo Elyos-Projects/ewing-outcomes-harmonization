@@ -1,0 +1,33 @@
+{
+  "id": "eoh-register-102",
+  "title": "Frozen included-studies register (inclusion/exclusion applied)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Applying the pre-registered protocol yields a frozen, versioned list of included studies, each license-cleared before extraction. This task produces that included-studies register. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Produce a frozen, versioned included-studies register with a complete per-study license row and disease-extent / era / regimen / access-status tags.",
+  "acceptanceCriteria": [
+    "Frozen, versioned list with a per-study license row complete before extraction.",
+    "Each study tagged by disease extent(s), era, regimen, and OA/closed-access status.",
+    "Register is the single source of truth feeding extraction; inclusion/exclusion decisions traceable to the protocol."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/datasets/included-studies-register.csv (versioned), committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "eoh-readme-304",
+  "title": "README + \"not medical advice\" notices + contribution guide",
+  "project": "ewing-outcomes-harmonization",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "The public repo must clearly communicate scope, the 'not medical advice' boundary, and how to contribute under the compliance rules. This task writes the README, notices, and contribution guide. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Write the project README with prominent 'not medical advice' notices and a contribution guide that enforces the aggregate-only, provenance-complete, license-cleared rules.",
+  "acceptanceCriteria": [
+    "README states scope, intended researcher audience, and carries a prominent 'not medical advice' notice.",
+    "Contribution guide enforces aggregate-only intake, complete provenance, and license clearance.",
+    "Notices and guide reviewed by the maintainer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "README and CONTRIBUTING content with 'not medical advice' notices, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

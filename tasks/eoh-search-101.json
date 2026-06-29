@@ -1,0 +1,33 @@
+{
+  "id": "eoh-search-101",
+  "title": "Pre-registered search strategy + screening protocol",
+  "project": "ewing-outcomes-harmonization",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "To prevent cherry-picking, the corpus must be assembled from a documented, reproducible search registered before screening. This task writes the pre-registered search strategy and screening protocol across the open sources. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Document a pre-registered, reproducible search strategy and screening protocol with explicit inclusion/exclusion criteria across PMC-OA, ClinicalTrials.gov, SEER, and Cochrane.",
+  "acceptanceCriteria": [
+    "Documented, reproducible queries for PMC-OA, ClinicalTrials.gov, SEER, and Cochrane.",
+    "Explicit inclusion/exclusion criteria (excludes case reports/series below the sample floor; aggregate-only).",
+    "Search protocol is pre-registered before screening to prevent cherry-picking."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/protocols/search-strategy.md plus a screening protocol, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

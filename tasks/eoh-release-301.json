@@ -1,0 +1,33 @@
+{
+  "id": "eoh-release-301",
+  "title": "Versioned CC-BY dataset release (CSV/Parquet/JSON) + Zenodo DOI",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The public deliverable is a versioned, openly licensed dataset release with a minted DOI and a transparent coverage ledger. This task packages and publishes that release. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Publish a semver-tagged CC-BY dataset release (CSV/Parquet/JSON) with a minted Zenodo DOI, changelog, and a 'what's covered / what's missing' ledger; 100% of records pass all gates.",
+  "acceptanceCriteria": [
+    "100% of records pass schema + provenance + min-cell + no-unsourced-number gates.",
+    "Semver-tagged release, Zenodo DOI minted, changelog + 'what's covered / what's missing' ledger published.",
+    "Release artifacts provided in CSV, Parquet, and JSON."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/release/ versioned dataset artifacts (CSV/Parquet/JSON) + changelog + coverage ledger, with a minted Zenodo DOI.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

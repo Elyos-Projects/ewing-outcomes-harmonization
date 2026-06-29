@@ -1,0 +1,34 @@
+{
+  "id": "eoh-compliance-003",
+  "title": "Build per-source license register + aggregate-only intake checklist",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Every source feeding the dataset must be license-cleared and confirmed aggregate/de-identified before extraction, to avoid relicensing copyrighted or controlled-access data. This task builds the per-source license register template and the aggregate-only intake checklist that gate extraction. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Produce a per-source license register template and an aggregate-only intake checklist that together gate whether a source may enter extraction.",
+  "acceptanceCriteria": [
+    "Register template captures access status, license, and permitted use per source.",
+    "Aggregate-only intake checklist requires an affirmative 'aggregate, de-identified' classification before a source enters extraction.",
+    "COSMIC/OncoKB and any controlled-access source are explicitly marked out of scope.",
+    "No source can be marked 'ready for extraction' with an incomplete license row."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/compliance/license-register-template.md and /output/compliance/intake-checklist.md, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

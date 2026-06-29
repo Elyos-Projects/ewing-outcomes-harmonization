@@ -1,0 +1,33 @@
+{
+  "id": "eoh-dict-302",
+  "title": "Data dictionary v1.0 + provenance graph publication",
+  "project": "ewing-outcomes-harmonization",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The released dataset must ship with a finalized data dictionary and a published provenance graph so researchers can trace every value to its source. This task publishes data dictionary v1.0 and the provenance graph. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Publish data dictionary v1.0 and a provenance graph linking every field/record to its source citation and locator.",
+  "acceptanceCriteria": [
+    "Data dictionary v1.0 documents every released field with definition, allowed values, and provenance requirements.",
+    "Provenance graph links records/values to DOI/PMID + source_locator + license.",
+    "Dictionary and provenance graph reviewed and signed by a domain reviewer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/release/data-dictionary-v1.0.md plus a published provenance graph, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

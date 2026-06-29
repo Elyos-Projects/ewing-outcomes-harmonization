@@ -1,0 +1,34 @@
+{
+  "id": "eoh-pilot-005",
+  "title": "Pilot-extract ≥3 landmark open-access ES outcome studies (double-extracted)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Before scaling extraction, the schema, ontology, compliance gates, and CI must be proven on real data. This task pilot-extracts at least three landmark open-access ES outcome studies, double-extracted with adjudication, to validate the end-to-end pipeline. The specific landmark studies are selected from the M1 included-studies register, not pre-enumerated here. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Harmonize ≥3 landmark open-access ES outcome studies into schema-valid records, double-extracted with logged adjudication, all passing CI gates and signed by a domain reviewer.",
+  "acceptanceCriteria": [
+    "≥3 landmark open-access studies harmonized; every record cites DOI/PMID + source table/figure + license.",
+    "Each record double-extracted; discrepancies adjudicated and logged.",
+    "100% of records pass all CI gates; domain reviewer signs the pilot."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md",
+    "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/"
+  ],
+  "output": "/output/datasets/pilot/ pilot extraction records (schema-valid) plus an adjudication log, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

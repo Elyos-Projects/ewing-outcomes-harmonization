@@ -1,0 +1,33 @@
+{
+  "id": "eoh-extract-103",
+  "title": "Extract localized-disease outcomes across included studies",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "With the register frozen, this task extracts localized-disease ES outcome records across the included studies into schema-valid, provenance-complete rows. This is one half of the disease-extent extraction split (localized; metastatic/relapsed is eoh-extract-104). Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Extract localized-disease ES outcome records across the included studies into schema-valid, fully sourced rows passing all CI gates.",
+  "acceptanceCriteria": [
+    "Localized-disease outcome records extracted across included studies; every record cites DOI/PMID + source table/figure + license.",
+    "Every record is schema-valid and passes provenance, min-cell, and no-unsourced-number CI gates.",
+    "Records double-extracted per the QA protocol; discrepancies routed to adjudication (eoh-qa-105)."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/datasets/outcomes-localized/ schema-valid records, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

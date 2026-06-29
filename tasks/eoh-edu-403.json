@@ -1,0 +1,33 @@
+{
+  "id": "eoh-edu-403",
+  "title": "(GATED) Plain-language \"how to read ES survival numbers\" explainer",
+  "project": "ewing-outcomes-harmonization",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "This is a GATED, high-risk-tier task: a family-facing plain-language explainer on how to read ES survival numbers. Per CLAUDE.md refusal guardrails and the PLAN, it must NOT start unless an oncologist + patient-advocate reviewer pair is secured, must give NO individualized prognosis or medical advice, must source every claim to the dataset/literature, and requires recorded oncologist sign-off plus patient-advocate review before any publication. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Only if an oncologist + patient-advocate reviewer pair is secured: draft a plain-language, fully sourced explainer on how to read ES survival numbers, with prominent 'not medical advice', no individualized prognosis, gated behind recorded expert sign-off.",
+  "acceptanceCriteria": [
+    "Not started unless an oncologist + patient-advocate reviewer pair is secured.",
+    "Every claim sourced to the dataset/literature; prominent 'not medical advice'; no individualized prognosis; written for families with care and plain language.",
+    "Oncologist sign-off AND patient-advocate review recorded before any publication."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/education/how-to-read-es-survival-numbers.md (publishable only after recorded expert sign-off).",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

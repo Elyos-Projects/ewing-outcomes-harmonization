@@ -1,0 +1,34 @@
+{
+  "id": "eoh-bk-506",
+  "title": "(Optional, funded) Bulk OA extraction with budget cap",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "funded",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Optional funded-lane acceleration: metered bulk extraction of open-access ES outcome studies against donor escrow with a hard per-task budget cap. Must never exceed the escrow; all records still pass the same compliance and CI gates. The fundedBudgetUsd value here is a placeholder cap to be set by escrow at activation. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Run metered bulk OA extraction of ES outcome studies against a hard budget cap, producing schema-valid, fully sourced records that pass all CI gates without exceeding escrow.",
+  "acceptanceCriteria": [
+    "Bulk OA extraction stays within the hard fundedBudgetUsd cap; spend is metered and never exceeds escrow.",
+    "Every record is aggregate-only, license-cleared, provenance-complete, and passes all CI gates.",
+    "A public cost ledger records spend against the budget cap."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/datasets/bulk-oa/ schema-valid records plus a public cost ledger, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "fundedBudgetUsd": 500
+}
