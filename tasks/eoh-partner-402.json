@@ -1,0 +1,33 @@
+{
+  "id": "eoh-partner-402",
+  "title": "Partner handoff + flip verifiedNeed on signed confirmation",
+  "project": "ewing-outcomes-harmonization",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "verifiedNeed stays false until a named partner confirms in writing that they will consume the dataset. This task documents the partner handoff and the procedure to flip verifiedNeed and assign a delivery steward once that confirmation exists. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Document the partner handoff: secure a named partner's written confirmation of consumption, flip verifiedNeed to true in affected tasks, and assign a last-mile delivery steward.",
+  "acceptanceCriteria": [
+    "Named partner confirms consumption in writing; verifiedNeed flips to true in affected tasks.",
+    "Steward role assigned for last-mile delivery.",
+    "Handoff record documents the partner, scope, and channel."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/ops/partner-handoff.md documenting the confirmation and verifiedNeed updates, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

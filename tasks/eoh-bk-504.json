@@ -1,0 +1,33 @@
+{
+  "id": "eoh-bk-504",
+  "title": "Interactive forest-plot viewer (researcher-facing, static site)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "code",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "A researcher-facing static-site forest-plot viewer over the released dataset, with comparability caveats enforced in the UI. Explicitly NOT a patient tool. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Build a static-site interactive forest-plot viewer over the released dataset that surfaces comparability flags and caveats and is labeled researcher-facing, not a patient tool.",
+  "acceptanceCriteria": [
+    "Viewer renders forest plots from the released dataset with comparability flags/caveats surfaced in the UI.",
+    "Explicitly labeled researcher-facing / not a patient tool; carries 'not medical advice'.",
+    "Static site builds reproducibly from the released artifacts."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "A committed static-site forest-plot viewer building from the released dataset.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

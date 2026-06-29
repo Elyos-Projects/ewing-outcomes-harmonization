@@ -1,0 +1,34 @@
+{
+  "id": "eoh-ontology-002",
+  "title": "Define ES outcome ontology + data dictionary v0.1",
+  "project": "ewing-outcomes-harmonization",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Harmonizing Ewing Sarcoma outcomes requires a shared controlled vocabulary so that event definitions (EFS/RFS/DFS/OS), disease extent, risk groups, regimen backbones, local-control modality, and treatment era are encoded consistently rather than coerced. This task turns the schema (eoh-schema-001) into a human-readable ontology and data dictionary v0.1 that downstream extractors follow. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Author the Ewing outcome ontology and data dictionary v0.1: every controlled vocabulary term defined with its source framing, every schema field documented with definition, allowed values, and extraction rationale.",
+  "acceptanceCriteria": [
+    "Every enum field from the schema (disease_extent, primary_site, age_band, risk_group, regimen_backbone, local_control, outcome_measure, event_definition, estimate_method, source_license, comparability_flags) has a defined controlled vocabulary with term-level definitions.",
+    "Each term records the original source framing it maps from; ambiguous or non-mappable labels are flagged rather than silently coerced.",
+    "Data dictionary v0.1 documents every schema field with definition, type, allowed values, and extraction guidance.",
+    "Ontology and dictionary reviewed and signed by a domain (sarcoma-oncology / clinical-epidemiology) reviewer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/ontology/ewing-outcome-ontology-v0.1.md plus a controlled-vocabulary reference, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "eoh-pooled-203",
+  "title": "Optional labeled pooled views (method-documented)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Some users want pooled estimates, but pooling heterogeneous studies risks misleading 'as-published' interpretation. This task produces optional, clearly labeled, method-documented pooled views with biostatistician sign-off, keeping per-study outcomes as the default. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Produce optional pooled views labeled 'derived, not as-published' with full method documentation, heterogeneity caveats, and recorded biostatistician sign-off; pooling stays opt-in.",
+  "acceptanceCriteria": [
+    "Any pooled estimate is clearly labeled 'derived, not as-published,' with full method documentation and heterogeneity caveats; biostatistician sign-off recorded.",
+    "Pooling is opt-in; the default dataset still reports per-study outcomes.",
+    "Pooled views are reproducible from the released records."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/analysis/pooled-views.md plus reproducible method notes, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

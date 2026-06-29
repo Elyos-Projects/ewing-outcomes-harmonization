@@ -1,0 +1,33 @@
+{
+  "id": "eoh-bk-502",
+  "title": "Translate gated explainer (hand off to ewing-info-translations)",
+  "project": "ewing-outcomes-harmonization",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Downstream of the GATED explainer (eoh-edu-403): only AFTER that explainer is expert-signed may its translation proceed, handed off to ewing-info-translations. High risk-tier; same 'not medical advice' and expert-review constraints carry through; translation must preserve the sourced, caveat-laden framing and never relicense copyrighted source. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Only after eoh-edu-403 is expert-signed: hand off the explainer for translation to ewing-info-translations, preserving sourcing, 'not medical advice', and caveats, with appropriate expert/linguistic review.",
+  "acceptanceCriteria": [
+    "Does not start until eoh-edu-403 is signed by the oncologist + patient-advocate reviewer pair.",
+    "Translation preserves every sourced claim, the 'not medical advice' notice, and all caveats; no individualized prognosis introduced.",
+    "Translation reviewed for linguistic and clinical fidelity before publication; source license honored (no relicensing of copyrighted source)."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "Translation handoff package for ewing-info-translations (publishable only after review).",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "source-compatible (do not relicense copyrighted source)"
+}

@@ -186,6 +186,35 @@ pair exists, ≥1 expert-signed explainer published through a vetted channel.
 | eoh-bk-505 | Quarterly new-trial review + dataset increment | maintenance | small | medium | Recurring update task |
 | eoh-bk-506 | (Optional, funded) Bulk OA extraction with budget cap | data | large | medium | `funded` lane; requires `fundedBudgetUsd` |
 
+## Generated task index
+
+Every backlog row above is now decomposed into a machine-readable `tasks/<id>.json`, validated
+against `packages/schema/src/schemas.ts` (Elyos taskSchema). All 26 task files are schema-valid,
+filenames match ids, and there are no duplicates.
+
+**Fan-out note:** these are *representative* tasks — one JSON per backlog row, no fabricated fan-out.
+The only dimension the plan bounds is **disease extent**, and that split is already expressed in the
+table as `eoh-extract-103` (localized) vs `eoh-extract-104` (metastatic & relapsed/refractory). The
+landmark ES studies are explicitly "to be enumerated in the M1 included-studies register"
+(`eoh-register-102`), not pre-enumerated here, so per-study extraction tasks expand only once that
+register is frozen. No languages, datasets, studies, or beneficiaries were invented.
+
+**Guardrails preserved in the JSON:** `eoh-edu-403` (family-facing explainer) and `eoh-bk-502`
+(its translation) carry `riskTier:"high"` and remain gated on a secured oncologist + patient-advocate
+reviewer pair, with "not medical advice", no individualized prognosis, and recorded expert sign-off
+before publication. `eoh-bk-502` keeps a source-compatible license (no relicensing of copyrighted
+source). `verifiedNeed=false` across the board until a named partner is secured (`eoh-partner-402`).
+`eoh-bk-506` is the only `funded` task and declares a `fundedBudgetUsd` cap.
+
+| Milestone | Task ids |
+|---|---|
+| M0 | eoh-schema-001 · eoh-ontology-002 · eoh-compliance-003 · eoh-ci-004 · eoh-pilot-005 |
+| M1 | eoh-search-101 · eoh-register-102 · eoh-extract-103 · eoh-extract-104 · eoh-qa-105 |
+| M2 | eoh-mapping-201 · eoh-flags-202 · eoh-pooled-203 |
+| M3 | eoh-release-301 · eoh-dict-302 · eoh-notebook-303 · eoh-readme-304 |
+| M4 | eoh-maint-401 · eoh-partner-402 · eoh-edu-403 (GATED, high-risk) |
+| Backlog | eoh-bk-501 · eoh-bk-502 (GATED) · eoh-bk-503 · eoh-bk-504 · eoh-bk-505 · eoh-bk-506 (funded) |
+
 ## Example task JSON
 
 Complete, schema-valid Task JSON for the first M0 task (`eoh-schema-001`). Validated against

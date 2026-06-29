@@ -1,0 +1,33 @@
+{
+  "id": "eoh-bk-501",
+  "title": "Cross-link records to ewing-open-data-catalog study entries",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Sibling-project integration: link harmonized outcome records to the corresponding study entries in ewing-open-data-catalog so the two open resources reinforce each other. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Cross-link harmonized outcome records to their corresponding ewing-open-data-catalog study entries via stable identifiers.",
+  "acceptanceCriteria": [
+    "Each linkable record carries a stable cross-reference to the matching ewing-open-data-catalog study entry.",
+    "Links are validated; unmatched records are reported rather than guessed.",
+    "Cross-links remain schema-valid and pass CI gates."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/datasets/crosslinks/ record-to-catalog cross-reference table, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

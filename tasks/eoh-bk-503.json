@@ -1,0 +1,33 @@
+{
+  "id": "eoh-bk-503",
+  "title": "Automated source link-rot checker + archival snapshot capture",
+  "project": "ewing-outcomes-harmonization",
+  "type": "code",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Sustainability hardening: source links rot over time. This task adds an automated link-rot checker and archival snapshot capture so provenance stays resolvable. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Implement an automated checker that detects dead source links and captures archival snapshots to preserve provenance resolvability.",
+  "acceptanceCriteria": [
+    "Checker detects broken/dead source links across all records and reports them.",
+    "Archival snapshots captured for sources to preserve provenance.",
+    "Checker runs on a schedule and locally via pnpm; documented."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "A committed link-rot checker + archival snapshot tooling under the repo's tooling path.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

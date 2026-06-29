@@ -1,0 +1,33 @@
+{
+  "id": "eoh-maint-401",
+  "title": "Maintenance plan, update cadence + outcome-tracking ledger",
+  "project": "ewing-outcomes-harmonization",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Long-term value requires a documented update cadence, a named maintainer, and a ledger tracking real-world outcomes delivered. This task writes the maintenance plan and stands up the outcome-tracking ledger. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Document the maintenance plan, update cadence, and named maintainer, and stand up an outcome-tracking ledger recording beneficiary outcomes.",
+  "acceptanceCriteria": [
+    "Maintenance plan documents update cadence and a named maintainer.",
+    "Outcome-tracking ledger is live and records delivered outcomes.",
+    "Plan reviewed by the maintainer."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/ops/maintenance-plan.md plus an outcome-tracking ledger, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

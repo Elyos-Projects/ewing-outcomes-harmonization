@@ -1,0 +1,33 @@
+{
+  "id": "eoh-flags-202",
+  "title": "Apply comparability flags + non-comparability audit",
+  "project": "ewing-outcomes-harmonization",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "cancer-research",
+    "ewing-sarcoma",
+    "oncology-data",
+    "data-harmonization"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Each harmonized record must carry comparability flags so users can see why two outcomes may not be directly comparable. This task applies the flags across all records and audits non-comparability. Strictly aggregate, de-identified, open-access data only; no patient-level data; not medical advice.",
+  "objective": "Apply comparability flags to 100% of records per the mapping rules and run a non-comparability audit documenting why flagged records differ.",
+  "acceptanceCriteria": [
+    "Comparability flags applied to 100% of records per the versioned mapping rules.",
+    "Non-comparability audit documents the basis for each flagged difference.",
+    "All flagged records remain schema-valid and pass CI gates."
+  ],
+  "resources": [
+    "C:/code/elyos/planning/projects/ewing-outcomes-harmonization/PLAN.md"
+  ],
+  "output": "/output/datasets/outcomes-flagged/ records with comparability flags plus a non-comparability audit, committed to the repo.",
+  "requestor": "TBD (no partner secured)",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
